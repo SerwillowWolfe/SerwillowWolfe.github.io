@@ -1,0 +1,93 @@
+@font-face {
+    font-family: my_font;
+    src: url(6551.ttf);
+}
+
+*{
+    margin:0;
+    overflow: hidden;
+}
+
+body{
+    overflow: hidden;
+}
+
+.background{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+.content{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+.logo{
+    width:300px;
+    height:250px;
+    position:absolute;
+    top:-50px;
+    left:50%;
+    margin-left:-150px;
+}
+
+.roulette{
+    width:100%;
+    height:150px;
+    position:absolute;
+    bottom:180px;
+    left:0;
+    background:rgba(0, 0, 0, 0.2);
+}
+
+.roll_btn{
+    width:250px;
+    height:60px;
+    position:absolute;
+    bottom:70px;
+    left:50%;
+    margin-left:-125px;
+    background: rgba(238, 0, 255, 0.1);
+    border:2px solid rgba(238, 0, 255, 0.8);
+    color: rgba(238, 0, 255, 0.6);
+    border-radius:20px;
+    cursor: pointer;
+    transition: 0.65s;
+}
+
+.roll_btn:hover{
+  border-radius:25px;
+  background: rgba(238, 0, 255, 0.6);
+  border:2px solid rgba(238, 0, 255, 0.1);
+  color: rgba(238, 0, 255, 0.5);
+  text-shadow: 2px 0px 13px rgba(0, 0, 0, 1);
+}
+
+.roll_btn_txt{
+    font-size:34px;
+    margin-top:7px;
+}
+
+.prizeZone{
+    width:250px;
+    height:250px;
+    position:absolute;
+    top:140px;
+    left:50%;
+    margin-left:-125px;
+}
+
+.prizeZoneTxt{
+    color: white;
+    margin-top:30px;
+    font-size:22px;
+    font-family: my_font;
+}
